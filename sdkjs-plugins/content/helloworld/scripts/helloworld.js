@@ -23,6 +23,7 @@
 
     window.Asc.plugin.init = function()
     {
+        debugger;
         var variant = 2;
 
         switch (variant)
@@ -30,7 +31,6 @@
             case 0:
             {
                 // serialize command as text
-                debugger;
                 var sScript = "var oDocument = Api.GetDocument();";
                 sScript += "oParagraph = Api.CreateParagraph();";
                 sScript += "oParagraph.AddText('Hello world!');";
